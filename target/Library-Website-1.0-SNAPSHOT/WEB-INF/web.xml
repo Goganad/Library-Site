@@ -32,25 +32,5 @@
         <servlet-name>SignUpController</servlet-name>
         <url-pattern>/signup</url-pattern>
     </servlet-mapping>
-
-    <servlet>
-        <servlet-name>MainReaderController</servlet-name>
-        <servlet-class>controller.ReaderController</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>MainReaderController</servlet-name>
-        <url-pattern>/mainreader</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>MainLibrarianController</servlet-name>
-        <servlet-class>controller.LibrarianController</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>MainLibrarianController</servlet-name>
-        <url-pattern>/mainlibrarian</url-pattern>
-    </servlet-mapping>
 </web-app>
 
